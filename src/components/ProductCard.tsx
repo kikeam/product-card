@@ -12,7 +12,6 @@ import {
 import { ProductContextProps } from '../interfaces/interfaces';
 
 export interface Props {
-  //children?: ReactElement | ReactElement[];
   children: (args: ProductCardHandlers) => JSX.Element;
   product: Product;
   className?: string;
